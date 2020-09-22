@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            main {
+                display: flex;
+                flex-direction: column;
+                font-family: monospace;
+                background-color: darkgrey;
+                color:white;
+            }
+            h1 {
+                display: flex;
+                justify-content: center;
+            }
+            input {
+                width: 10%;
+                margin: 10px;
+                padding: 10px;
+                font-size: 1.5em;
+                font-family: monospace;
+                color: white;
+                background-color: grey;
+                size: 2em;
+            }   
+            #display {
+                font-size: 2em;
+            }
+            main > span {
+                font-size: 2em;
+            }
+            #totalCost {
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Tip Calculator</h1>
+            <input id="bill" value="10.00" type="number">
+            <input id="tip" value="15" type="number">
+            <input id="people" value="1" type="number">
+            <span>Tip amount:</span>
+            <div id="display">0.00</div>
+            <span>Total cost:</span>
+            <div id="totalCost">0.00</div>
+        </main>
+        <script src="tipCalculator.js"></script>
+    </body>
+</html>
