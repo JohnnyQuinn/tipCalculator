@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+main {
+    font-family: monospace;
+    background-color: darkcyan;
+    color:white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    border-style: inset; 
+    border-width: 5px;
+    border-color: lightgray;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    text-shadow: 1px 1px black;
+}
+input {
+    width: 20%;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: monospace;
+    color: white;
+    background-color:grey;
+    border-radius: 5px;
+} 
+#inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}  
+#tipAmount {
+    font-size: 2em;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: inset; 
+    border-width: 2px;
+    border-color: lightgray;
+}
+h2 {
+    margin: 1em 0 0 1em;
+    text-shadow: 1px 1px black;
+}
+#totalCost {
+    font-size: 2em;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: inset; 
+    border-width: 2px;
+    border-color: lightgray;
+}
+section > span {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

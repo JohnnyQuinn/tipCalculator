@@ -1,4 +1,4 @@
-const display = document.querySelector('#display')
+const display = document.querySelector('#tipAmount')
 const billInput = document.querySelector('#bill')
 const tipInput = document.querySelector('#tip')
 const peopleInput = document.querySelector('#people')
@@ -12,7 +12,7 @@ function calculateTip() {
     const total = tipAmount/peopleValue
     const cost = billValue + tipAmount
     display.innerHTML = total.toFixed(2) /* toFixed changes number to string and also limits number to # of decimals */
-    totalCost.innerHTML = cost
+    totalCost.innerHTML = cost.toFixed(2)
 }
 
 calculateTip()
